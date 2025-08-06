@@ -1,4 +1,4 @@
-from agent.industry_agent import IndustryAgent
+from agent.supply_chain_agent import SupplyChainAgent
 import sys
 
 if __name__ == "__main__":
@@ -6,7 +6,7 @@ if __name__ == "__main__":
         print("用法: python main.py <数据文件路径>")
         exit(1)
     data_path = sys.argv[1]
-    agent = IndustryAgent()
+    agent = SupplyChainAgent()
     report = agent.analyze(data_path)
     print("行业分析报告：\n", report) 
 
