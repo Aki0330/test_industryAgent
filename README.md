@@ -27,12 +27,14 @@
 行业agent/
 ├── agent/                    # 智能代理模块
 │   ├── industry_agent.py    # 行业分析代理
-│   └── regional_agent.py    # 地区分析代理
+│   ├── regional_agent.py    # 地区分析代理
+│   └── supply_chain_agent.py    # 供应链分析代理
 ├── tools/                   # 工具模块
 │   ├── data_loader.py       # 数据加载器
 │   ├── graph_utils.py       # 图分析工具
 │   ├── regional_loader.py   # 地区数据加载器
-│   └── regional_graph_utils.py # 地区图分析工具
+│   ├── regional_graph_utils.py # 地区图分析工具
+│   └── IndustryReport_loader.py # 行业数据加载器
 ├── llm/                     # 大语言模型接口
 │   └── deepseek_llm.py     # DeepSeek LLM接口
 ├── configs/                 # 配置模块
